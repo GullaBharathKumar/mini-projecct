@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+ 
+html,body{
+    /* height:100%;
+    width:100%;
+    margin: 0;
+    padding: 0; */
+    font-family: 'Roboto', sans-serif;
+    overflow-x:clip;
+}
+
+.left img{
+    width: 32px;
+    height: 23px;
+}
+.container3{
+    padding: 0 0vw;
+   overflow: hidden;
+} 
+header{
+    height:66px;
+        position: sticky;
+        top: 0px;
+        position: sticky;
+        background: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+nav{
+font-size: 12px;
+padding: 14px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 6px;
+}
+.section1{
+    background-color:#f2f2f2;
+    height: 122vh;
+}
+ /* .kiran{
+ margin: 4px 74px 0px -119px;
+
+}   */
+
+.search{
+    width: 39vw;
+    padding: 2px 62px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    background: #f7f8fd; 
+}
+.home{
+        width: 100vw;
+        margin: 6px -18px;
+}
+fotter{
+display: block;
+height: 2vw;
+text-align: center;
+padding: 7px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+ #slider figure{ 
+     overflow:hidden; 
+ } 
+
+#slider figure{
+    position:relative;
+    width:500%;
+    margin: 6px 0;
+       animation: 18s slider infinite;   
+
+}
+#slider figure img{
+float:left;
+width: 20%;
+
+}
+@keyframes slider{
+0%{
+    left:0;
+}
+20%{
+    left:0;
+}
+25%{
+    left:-100%
+}
+45%{
+    left:-100%
+}
+50%{
+    left:-200%
+}
+70%{
+    left:-200%;
+}
+75%{
+    left:-300%;
+}
+95%{
+    left:-300%;
+}
+100%{
+    left:-400%
+}
+
+}
+    @media (max-width:1161px) 
+    {
+       
+     .container3{
+              padding:0 0vw;
+        }
+        header{
+            height: 83px;
+        }
+        nav{
+            flex-direction:column;
+            align-items: center;
+          }
+          nav ul li {
+            list-style: none;
+            padding: 0px 4px;
+          }
+           .left img { 
+             width: 11px;
+            height: 19px;
+            margin: 0 -16px;
+          }
+        .search {
+            width: 13vw;
+            padding: 2px 64px;
+            }
+           .home {
+        width: 100vw;
+        margin:6px 0px;
+       }  
+      
+      fotter{
+        width: 106vw;
+        padding: 0px 0px 19px;
+      }
+      .mx-2{
+        margin-left: 8px;
+        margin-right: 7px;
+    }
+    .search {
+        width: 28vw;
+        padding: 1px 57px;
+        margin: 1px 0px;
+    }
+
+    #slider figure{
+        margin:6px 0px;
+    }
+    .left img {
+        width: 14px;
+        height: 24px;
+        margin: -1px -8px 0 20px;
+      }
+
+      nav ul{
+        margin-left: -23px;
+      }
+}
+  
